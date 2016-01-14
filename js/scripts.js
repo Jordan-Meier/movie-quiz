@@ -11,8 +11,16 @@ $(document).ready(function() {
      total += parseInt($("select#worker").val());
 
      console.log(total);
-     
 
+     if (total >= 13) {
+      $("#slytherin").show();
+    } else if (total >= 10 && total < 13) {
+      $("#ravenclaw").show();
+    } else if (total >= 7 && total < 10) {
+      $("#hufflepuff").show();
+    } else {
+      $("#gryffindor").show();
+    }
 
 
 
@@ -21,27 +29,3 @@ $(document).ready(function() {
 
 
 });
-// if (helping === "noHelp" && ambition === "yesAmbition" && mistakes === "noMistakes" && creative === "noCreative" && worker === "noWorker") {
-//   $("#slytherin").show();
-// }
-
-// $(document).ready(function() {
-//   $("form#celebrity").submit(function(event) {
-//     var age = parseInt($("input#age").val());
-//     var gender = $("select#gender").val();
-//     var travel = $("select#travel").val();
-//     var food = $("select#food").val();
-//
-//     if (age >= 30 && travel === "italy" && gender === "female" && food === "pizza" || food === "watermelon") {
-//       $("#steve").show();
-//
-//     } else if (age <= 22  && travel === "hongKong") {
-//       $("#gilbert").show();
-//
-//     } else {
-//       $("#maggie").show();
-//   }
-//     event.preventDefault();
-//   });
-//
-// });
