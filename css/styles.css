@@ -1,3 +1,44 @@
 #gryffindor, #hufflepuff, #ravenclaw, #slytherin {
   display: none;
+  background-color: #333131;
+  color: #d1eee9;
+}
+
+.jumbotron {
+  background-image: url('../images/hogwartsBG.jpg');
+  color: white;
+}
+
+#bodyColor, .form-control {
+  background-color: #333131;
+  color: #d1eee9;
+}
+
+
+#movie {
+  padding: 200px;
+}
+
+.video {
+  text-align: center;
+
+}
+
+.container-fluid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.results img {
+  float: left;
+  margin-top: 10px;
+  border: 5px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
 }
