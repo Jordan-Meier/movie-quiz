@@ -1,7 +1,5 @@
 #gryffindor, #hufflepuff, #ravenclaw, #slytherin {
   display: none;
-  background-color: #333131;
-  color: #d1eee9;
 }
 
 .jumbotron {
@@ -29,16 +27,11 @@
   margin-bottom: 0;
 }
 
-.results img {
-  float: left;
-  margin-top: 10px;
-  border: 5px solid black;
-}
 
-@media screen and (max-width: 768px) {
-  
+/*@media screen and (max-width: 768px) {
+
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
 
-}
+}*/
